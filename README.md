@@ -1,29 +1,21 @@
 # 🏢 SnehSagar Society Management System
 
-A full-stack **MERN (MongoDB, Express, React, Node.js)** web application designed to streamline the management of housing societies. This system allows Admins to manage residents and maintenance bills, while Residents can view their dues and make payments seamlessly.
+A full-stack **MERN (MongoDB, Express, React, Node.js)** web application designed to streamline housing society management. It simplifies billing, payment tracking, and resident management for Admins while providing a seamless dashboard for Residents.
 
-![Project Banner](https://via.placeholder.com/1000x300?text=SnehSagar+Society+Management+System)
+---
 
-## 🚀 Features
+## 🚀 Key Features
 
 ### 👑 Admin Module
-- **Dashboard:** Real-time overview of total revenue, pending dues, and active residents.
-- **Resident Management:** Add, view, and search society members/residents.
-- **Bill Management:**
-  - Generate maintenance bills for individual residents.
-  - **Bulk Generate:** Create bills for ALL residents in one click.
-- **Track Payments:** View recent transaction history and verify payments.
+- **Dashboard Overview:** Real-time stats on total revenue, pending dues, and active residents.
+- **Bulk Bill Generation:** Generate maintenance bills for **ALL** residents in a single click.
+- **Resident Management:** Add and manage society members with ease.
+- **Payment Tracking:** View recent transaction history and status updates.
 
 ### 🏠 Resident Module
-- **Dashboard:** View pending dues, total paid amount, and profile details.
-- **Bill Payments:** Secure interface to view and pay maintenance bills.
-- **History:** Access past payment history and transaction receipts.
-
-### 🎨 UI/UX
-- **Modern Design:** Built with **Tailwind CSS** for a clean, professional look.
-- **Responsive:** Fully optimized for Desktop, Tablet, and Mobile.
-- **Interactive:** Glassmorphism effects, Skeleton loaders, and smooth animations.
-- **Icons:** Uses `lucide-react` for modern iconography.
+- **Personal Dashboard:** View outstanding dues and payment history.
+- **Secure Payments:** Interface to pay maintenance bills.
+- **Profile:** View flat details and account status.
 
 ---
 
@@ -31,10 +23,10 @@ A full-stack **MERN (MongoDB, Express, React, Node.js)** web application designe
 
 | Component | Technology |
 |-----------|------------|
-| **Frontend** | React.js, Tailwind CSS, Lucide React, Axios, React Router DOM |
+| **Frontend** | React.js, Tailwind CSS, Lucide React, Axios |
 | **Backend** | Node.js, Express.js |
 | **Database** | MongoDB (Mongoose) |
-| **Authentication** | JSON Web Token (JWT) |
+| **Auth** | JWT (JSON Web Token) |
 
 ---
 
@@ -44,5 +36,5 @@ Follow these steps to run the project locally.
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/snehsagar-society.git](https://github.com/codedbymithlesh/society-maintanence-billing-system)
-cd snehsagar-society
+git clone [https://github.com/codedbymithlesh/society-maintanence-billing-system.git](https://github.com/codedbymithlesh/society-maintanence-billing-system.git)
+cd society-maintanence-billing-system
